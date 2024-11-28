@@ -1,8 +1,5 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         Recetas receta1 = new Recetas("Zanahoria", "", "Naranja", "C, D, Zinc", "Tierra", "Humeda", 30, "Ensalada", "Hervida");
         Recetas receta2 = new Recetas("Papa", "", "Cafe", "Carbohidratos", "Tierra", "Arida", 25, "Salchipapa", "Frita");
         Recetas receta3 = new Recetas();
